@@ -59,7 +59,6 @@ def menu_print():
     i = 1
     while i< len(menu):
         print(i, menu[i], price[i])
-        #print("%d. %-10s %5d"% (i, menu[i], price[i]))
         i = i+1
 
 def menu_select():
